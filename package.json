@@ -1,0 +1,32 @@
+{
+  "name": "create-zhall",
+  "version": "1.0.0",
+  "description": "create a zhall application using the command line",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "bin": {
+    "create-zhall": "index.js"
+  },
+  "scripts": {
+    "test": "test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangheng0317/create-zhall.git"
+  },
+  "keywords": [
+    "zhall"
+  ],
+  "author": "zhang heng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangheng0317/create-zhall/issues"
+  },
+  "homepage": "https://github.com/zhangheng0317/create-zhall#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs-parser": "^20.2.9"
+  }
+}
