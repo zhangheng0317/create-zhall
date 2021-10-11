@@ -8,7 +8,7 @@ const args = yParser(process.argv.slice(2), {
   alias: {
     version: ['v'],
     help: ['h'],
-    type: ['t'],
+    template: ['t'],
   },
   boolean: ['version'],
 });
@@ -20,9 +20,9 @@ if (args.v || args.version) {
 }
 
 const name = args._[0];
-const type = args.t || args.type;
+const template = args.t || args.template;
 
 (async () => {
-  await run({ name, type, args });
+  await run({ name, template, args });
   process.exit(0);
 })();
