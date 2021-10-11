@@ -12,7 +12,7 @@ const args = yParser(process.argv.slice(2), {
   },
   boolean: ['version'],
 });
-console.log(args);
+// console.log(args);
 
 if (args.v || args.version) {
   console.log(`@zhall/cli ${version}`);

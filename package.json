@@ -31,9 +31,10 @@
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
     "mkdirp": "^1.0.4",
+    "prettier": "^2.4.1",
     "yargs-parser": "^20.2.9",
     "yeoman-environment": "^3.6.0",
-    "yeoman-generator": "^5.4.2"
+    "yeoman-generator": "^4.0.1"
   },
   "devDependencies": {}
 }
